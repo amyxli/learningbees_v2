@@ -635,12 +635,12 @@ timeline.push(testPhase);
 // posttask questionnaire
 
 // randomise order of posttest questions
-var beeEstimateQ = [
+var beeEstimate = [
   "Imagine that 10 beehives were randomly chosen from the ones that you just learned about. About how many do you think would contain dangerous bees? (Enter a value between 0 and 10.)",
   "Imagine that 10 beehives were randomly chosen from the ones that you just learned about. About how many do you think would contain friendly bees? (Enter a value between 0 and 10.)",
 ];
 
-var beeEstimateQ = jsPsych.randomization.sampleWithoutReplacement(beeEstimateQ, 2);
+var beeEstimateQ = jsPsych.randomization.sampleWithoutReplacement(beeEstimate, 2);
 
 
 var endquestions_1 = {
